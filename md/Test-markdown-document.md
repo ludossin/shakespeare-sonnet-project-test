@@ -18,6 +18,6 @@ No love toward others in that bosom sits
 That on himself such murd'rous shame commits.
 
 Images are inserted like this:
-![Shakespeare himself](/imgs/shakespeare.png)
+![Shakespeare himself](imgs/shakespeare.png)
 
 [from http://poetry.eserver.org/sonnets/009.html](http://poetry.eserver.org/sonnets/009.html)
