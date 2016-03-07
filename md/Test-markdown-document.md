@@ -20,5 +20,7 @@ That on himself such murd'rous shame commits.
 Images are inserted like this:
 ![Shakespeare himself](imgs/shakespeare.png)
 
+<img src="imgs/shakespeare.png"  alt="Shakespeare Portrait"/>
+
 
 [from http://poetry.eserver.org/sonnets/009.html](http://poetry.eserver.org/sonnets/009.html)
