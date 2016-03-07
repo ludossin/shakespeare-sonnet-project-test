@@ -1,44 +1,25 @@
-@font-face{
-    font-family: 'OpenSans-Light';
-    font-weight: lighter;
-    font-style: normal;
-    src:url('OpenSans-Light.otf')format("opentype");
+/* lora-regular - latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lora'), local('Lora-Regular'),
+       url('lora-v9-latin-regular.ttf') format('truetype')
 }
 
-@font-face{
-    font-family: 'OpenSans-LightItalic';
-    font-weight: lighter;
-    font-style: italic;
-    src:url('OpenSans-LightItalic.otf')format("opentype");
+/* lora-italic - latin */
+@font-face {
+  font-family: 'Lora Italic';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lora Italic'), local('Lora-Italic'),
+       url('lora-v9-latin-italic.ttf') format('truetype')
 }
-
-@font-face{
-    font-family: 'OpenSans-Semibold';
-    font-weight: bold;
-    font-style: normal;
-    src:url('OpenSans-Semibold.otf')format("opentype");
-}
-
-@font-face{
-    font-family: 'VAGRoundedStd-Bold';
-    font-weight: bold;
-    font-style: normal;
-    src:url('VAGRoundedStd-Bold.otf')format("opentype");
-}
-
-
-@font-face{
-    font-family: 'VAGRoundedStd-Black';
-    font-weight: normal;
-    font-style: normal;
-    src:url('VAGRoundedStd-Black.otf')format("opentype");
-}
-
 
 
 body{
     font-size: 10pt;
-    font-family: 'OpenSans-Light';
+    font-family: 'Lora';
     hyphens: none
     -webkit-hyphens:none;
 }
@@ -61,7 +42,7 @@ p {
 
 
 h1,h2,h3,h4{     
-    font-family: 'VAGRoundedStd-Bold';
+    font-family: 'Lora Italic';
     text-transform:uppercase;
     hyphens: none !important;
     -moz-hyphens: none !important;
@@ -90,16 +71,16 @@ h2{
 
 
 b,strong{
-    font-family: 'OpenSans-Semibold';
+    font-family: 'Lora';
 }
 
 p.italic {
-    font-family: 'OpenSans-LightItalic';
+    font-family: 'Lora Italic';
     font-style: italic;
 }
 
 figcaption{
-        font-family: VAGRoundedStd-Bold;
+    font-family: 'Lora Italic';
     font-size:0.8em;
 }
 
@@ -159,7 +140,7 @@ a:hover { color: #d2a8d4;
   }
 
     div.streams{
-    font-family: VAGRoundedStd-Bold;
+    font-family: 'Lora';
     width: 70%;
     min-width: 10em;
     margin-left: auto;
@@ -270,13 +251,13 @@ th, td {
 }
 table .header {
     color: #d2a8d4;
-    font-family: 'VAGRoundedStd-Bold';
+    font-family: 'Lora';
 }
 
 table+p, figure+p {
     text-align: right;
     font-size: 0.5em;
-    font-family: 'VAGRoundedStd-Bold';
+    font-family: 'Lora';
 }
 
 #colophon p:last-of-type {
@@ -298,7 +279,7 @@ figure {
 
 .RQ::first-line {
     color: #d2a8d4;
-    font-family: 'VAGRoundedStd-Bold';
+    font-family: 'Lora';
     text-decoration: underline;
     margin-top: 0.8em;
 }
